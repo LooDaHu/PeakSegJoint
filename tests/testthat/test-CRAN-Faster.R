@@ -135,3 +135,4 @@ test_that("same model for Heuristic and Faster", {
   fit.f <- PeakSegJointFaster(full.list, 2L)
   expect_equal(fit.f$min.loss, fit.h$models[[11]]$loss)
 })
+ # Toggle Github Action 
